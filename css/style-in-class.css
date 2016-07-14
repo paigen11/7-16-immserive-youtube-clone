@@ -1,0 +1,149 @@
+body {
+	font-family: sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+#youtube-wrapper{
+	/* set a gutter on both sides of the wrapper */
+	margin: auto 40px;
+}
+
+#header{
+	/* set the height */
+	height: 50px;
+	/* set the line height so that our text is vertically centered */
+	line-height: 50px;
+	/* set a border for the bottom line */
+	border-bottom: 1px solid black;
+}
+
+#header h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#nav{
+	border-bottom: 1px solid black;
+	padding-bottom: 15px;
+}
+
+#logo, #search-nav, #account-container{
+	display: inline-block;
+}
+
+#logo{
+	width: 20%;
+	margin-top: 25px;
+}
+
+#logo img{
+	max-width: 150px;
+}
+
+#search-nav{
+	width: 50%;
+}
+
+/* #search-nav .search-text{
+	width: 70%;
+}
+
+#search-nav .search-button{
+	width: 18%;
+} */
+
+#search-container{
+	margin-bottom: 25px;
+}
+
+#search-nav input[type=text]{
+	width: 340px;
+}
+
+#nav-bar ul li{
+	/* put all lis on the same line */
+	display: inline-block;
+	/* put a line on the right side */
+	border-right: 1px solid black;
+	/* get some space between li and border on both sides */
+	padding-right: 20px;
+	padding-left: 10px;
+	font-size: 18px;
+	/* add a line underneath each li */
+	text-decoration: underline;
+}
+
+/* target the last child only */
+#nav-bar ul li:last-child{
+	border: none;
+}
+
+#account-container{
+	width: 28%;
+	text-align: right;
+}
+
+#account-text{
+	margin-bottom: 25px;
+}
+
+#account-links ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#account-links ul li:last-child{
+ 	padding: 0px;
+}
+
+#content{
+	margin-top: 20px;
+}
+
+#featured-wrapper{
+	background-color: #cacaca;
+	padding: 0px 15px;
+}
+
+#featured-wrapper h2{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+	/* margin on top / bottom leave left/ right alone */
+	margin: 10px auto;
+	width: 70%;
+}
+
+#featured-wrapper, #featured, #secondary-videos{
+	/* apply inline block to all */
+	display: inline-block;
+}
+
+.small-video{
+	border: 1px solid black;
+}
+
+.small-video{
+	display: inline-block;
+}
+
+#right-rail-ad{
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+}
+
+#more-videos{
+	background-color: #cacaca;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.more-video-item{
+	display: inline-block;
+	width: 24%;
+}
+

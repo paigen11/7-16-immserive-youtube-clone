@@ -1,0 +1,73 @@
+#wrapper{
+	max-width: 1100px;
+	margin: auto;
+	font-family: helvetica;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+#logo img{
+	max-width: 100%;
+}
+
+#header-1{
+	width: 19%;
+	display:inline-block;
+}
+
+#header-2{
+	width: 39%;
+	display: inline-block;
+}
+
+#search input{
+	float: left;
+	text-align: center;
+}
+
+#header-3{
+	width: 39%;
+	display: inline-block;
+}
+
+#nav-bar-1{
+	position: relative;
+}
+
+#hav-bar-1 li{
+	text-align: center;
+}
+
+#nav-bar-2{
+	float: right;
+}
+
+#nav-bar-2 li{
+	float: right;
+	text-align: left;
+}
+
+#main {
+	width: 100%;
+	height: 325px;
+	overflow: hidden;
+}
+
+#main-video{
+	display: inline-block;
+	width: 35%;
+}
+
+#video-posts{
+	width: 20%;
+	margin: auto;
+}
+
+#square{
+	display: inline-block;
+	width: 35%;
+}
